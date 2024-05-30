@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: url('../images/website-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: chocolate;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.main-content {
+    text-align: start;
+    padding: 100px 20px;
+}
+.main-content h2 {
+    font-size: 48px;
+    margin: 0;
+}
+.main-content span{
+    color:rgb(165, 75, 11);
+    font-weight: 800;
+}
+.main-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.join-button {
+    padding: 10px 25px;
+    background-color:rgb(165, 75, 11,0.7 );
+    color:#000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px;
+    margin-left: 75%;
+    text-align: left;
+    margin-top: -300px;
+}
+.login-form h3 {
+    margin-top: 0;
+}
+.login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.login-form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color:rgb(169, 81, 18);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.login-form a {
+    color: rgb(209, 97, 17);
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.search-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+.search{
+    padding: 5px;
+    background-color: #000;
+    border-radius: 5px;
+    border:none;
+ }
+.search-bar button {
+    padding: 15px 10px;
+    background-color: rgb(177, 81, 12);
+    border:none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
